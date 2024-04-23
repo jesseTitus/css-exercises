@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,7 +11,13 @@
   </head>
   <body>
     <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <style>
+      p {font-size: 18px; 
+        background-color: green;
+        color: white;
+      }
+    </style>
+    <p >I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange;">Inline Method</button>
   </body>
 </html>
